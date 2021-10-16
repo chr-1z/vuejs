@@ -32,5 +32,4 @@ var app = new Vue({
             this.image = variantImage
         }
     }
-
 })
