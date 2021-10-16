@@ -26,7 +26,8 @@
                     :key="variant.variantId"
                     class="color-box"
                     :style="{ backgroundColor: variant.variantColor }"
-                    @mouseover="updateProduct(index)">
+                    v-on:click="updateProduct(index)">
+                    <!-- @mouseover="updateProduct(index)"> -->
                 </div>
 
                 <button v-on:click="addToCart"
